@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    font-family: "montserrat",serif;
+}
+nav{
+    padding: 20px 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+i{
+    font-size: larger;
+}
+.menu-toggle .h{
+    height: 30px;
+    width: fit-content;
+}
+.menu-toggle img{
+    width: 100px;
+    height: fit-content;
+}
+.menu-toggle{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.language{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.language-1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.landing{
+    padding: 40px 200px;
+}
+.side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rmv-list{
+    list-style: none;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.blue{
+    color: blue;
+}
+.little{
+    font-size: 10px;
+    font-weight: lighter;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+}
+.p-10{
+    padding-top:20px ;
+    padding-bottom: 20px;
+}
+  .image-container {
+    width: 50%;
+    padding: 20px;
+    background-color: lightblue;
+  }
+
+  .image-container img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .image-container p {
+    font-weight: lighter;
+  }
+  .three{
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    width: 100/3%;
+  }
+  .three img{
+    width: 20px;
+    height: fit-content;
+  }
+  .between{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .wiki-info {
+    margin-bottom: 20px;
+}
+
+.wiki-info a {
+    font-weight: bold;
+}
+
+.wiki-info small {
+    font-size: 80%;
+}
+
+.languages {
+    float: left;
+    margin-top: 20px;
+}
+
+.languages label {
+    font-weight: bold;
+}
+
+.languages ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.languages li {
+    margin-bottom: 5px;
+}
+
+.languages li a {
+    text-decoration: none;
+}
